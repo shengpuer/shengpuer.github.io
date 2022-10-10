@@ -1,10 +1,209 @@
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>shengpuer's blog</title>
-  </head>
-  <body>
-    <p>hello,world!</p>
-    <p>This is Shengpuer's blog website.</p>
-    <p>please visit <a href=http://www.hedongsheng.cn>hedongsheng.cn</a> to get detail.</p>
-  </body>
+<title>HDS Made</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>HDS</b> Made</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#Information" class="w3-bar-item w3-button">Information</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="./images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>HDS</b></span> <span class="w3-hide-small w3-text-light-grey">Made</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <!-- OneOneSong-->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">OneOneSong</div>
+        <img src="./images/oneonesong.jpg" alt="OneOneSong" style="width:100%" class="w3-border w3-hover-opacity" onclick="document.getElementById('id01').style.display='block'">
+      </div>
+      <div id="id01" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal">
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>OneOneSong</h2>
+            </header>
+            <div class="w3-container">
+                <p>起于2018年的项目，至今已完成6首歌曲的录制</p>
+                <p>最近一首歌曲《乌兰巴托的夜》请<a href="https://mp.weixin.qq.com/s/IdRQoubnHQn9L2lGwb4RFQ">点击试听</a></p>
+            </div>
+            <footer class="w3-container w3-teal">
+              <p>若想参与项目，请电邮 shengpuer@qq.com </p>
+            </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- OneOneStudy -->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">OneOneStudy</div>
+        <img src="./images/oneonestudy.jpg" alt="OneOneStudy" style="width:100%" class="w3-border w3-hover-opacity" onclick="document.getElementById('id02').style.display='block'">
+      </div>
+      <div id="id02" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal">
+              <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>OneOneStudy</h2>
+            </header>
+            <div class="w3-container">
+                <p>致力于每日输入，以获得思考的源泉，提高认知的广度和深度</p>
+                <p>《阴符经》《罗织经》《守弱学》《度心术》《荣枯鉴》《解厄学》《素书》《中国通史》等众多内容，一一领着学完。后续中医篇章就要翻开。</p>
+                <p>最近的学习项目为青少年人工智能，已开始输出</p>
+            </div>
+            <footer class="w3-container w3-teal">
+              <p>若想加入，请电邮 shengpuer@qq.com </p>
+            </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- OneOneThink-->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">OneOneThink</div>
+        <img src="./images/oneonethink.jpg" alt="OneOneThink" style="width:100%" class="w3-border w3-hover-opacity" onclick="document.getElementById('id03').style.display='block'">
+      </div>
+      <div id="id03" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal">
+              <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>OneOneThink</h2>
+            </header>
+            <div class="w3-container">
+                <p>项目起于2019年1月1日，致力于每日反思，以图精进。</p>
+                <p>提供全套模板工具，基础以每日图像记录、学习受人、关照自我、关爱环境为主旨，具体实践每日不辍中，有多样的衍生。</p>
+                <p>输入不止，输出不停。</p>
+            </div>
+            <footer class="w3-container w3-teal">
+              <p>若想加入，请电邮 shengpuer@qq.com </p>
+            </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- OneOneWrite-->
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">OneOneWrite</div>
+        <img src="./images/oneonewrite.jpg" alt="OneOneWrite" style="width:100%" class="w3-border w3-hover-opacity" onclick="document.getElementById('id04').style.display='block'">
+      </div>
+      <div id="id04" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal">
+              <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>OneOneWrite</h2>
+            </header>
+            <div class="w3-container">
+                <p>项目起于2022年，属于个体输出的重要项目。各种文体皆可，成系统化即是优良。</p>
+                <p>提供写作进度管理系统，可对写作内容目标实现提供全流程帮助。</p>
+                <p>目前已完成《欢喜佛》小说写作1万5千余字，持续写作中。</p>
+            </div>
+            <footer class="w3-container w3-teal">
+              <p>若想加入，请电邮 shengpuer@qq.com </p>
+            </footer>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+
+  <!-- Information Section -->
+  <div class="w3-container w3-padding-32" id="Information">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Information</h3>
+    <p>在下面提供了必要的一些帮助信息，可以直接选用。</p>
+  </div>
+  <div class="w3-container">
+  <table class="w3-table-all">
+    <h6><b>MicroBit使用</b></h6>  
+        <thead>
+            <tr class="w3-black">
+                <th>类型</th>
+                <th>网址</th>
+             </tr>
+        </thead>
+        <tr>
+            <td>在线版</td>
+            <td><a href=https://makecode.microbit.org target="_blank">https://makecode.microbit.org </a></td>
+        </tr>
+        <tr>
+            <td>离线版-windows</td>
+            <td><a href=https://makecode.com/api/release/microbit/v5.0.12/win64>https://makecode.com/api/release/microbit/v5.0.12/win64</a></td>
+        </tr>
+        <tr>
+            <td>离线版-苹果</td>
+            <td><a href=https://makecode.com/api/release/microbit/v5.0.12/mac64>https://makecode.com/api/release/microbit/v5.0.12/mac64</a></td>
+        </tr>
+  </table>
+  </div>
+  <div class="w3-container">
+  <table class="w3-table-all">
+   <h6><b> 常用传感器地址</b></h6>     
+        <thead>
+            <tr class="w3-black">
+                <th>名称</th>
+                <th>网址</th>
+             </tr>
+        </thead>
+        <tr>
+            <td>电机风扇</td>
+            <td>https://github.com/lzty634158/yahboom_mbit</td>
+        </tr>
+        <tr>
+            <td>红外传感器</td>
+            <td>https://github.com/YahboomTechnology/yahboom_mbit</td>
+        </tr>
+        <tr>
+            <td>点阵模块</td>
+            <td>https://github.com/lzty634158/LED-Bit</td>
+        </tr>
+        <tr>
+            <td>数码显示管</td>
+            <td>https://github.com/YahboomTechnology/tm1650	</td>
+        </tr>
+  </table>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>用以下的工具开始即时交流吧！输入喜欢的用户名加入即可。</p>
+    <iframe src="https://beta.hack.chat/?microbit" width="100%"  height="600"></iframe>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by HDS</p>
+</footer>
+
+</body>
 </html>
